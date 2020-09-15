@@ -117,7 +117,7 @@ const SplashPage = () => {
             <img src={s100dark} />
           </a>
           <CountCountainer>
-            <Countdown date={"09/17/2020 6:00 PM PST"} renderer={renderer} />
+            <Countdown date={"09/17/2020 5:00 PM PST"} renderer={renderer} />
           </CountCountainer>{" "}
           <div>
             <Button href="/event">Buy Now</Button>
