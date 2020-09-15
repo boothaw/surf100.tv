@@ -67,8 +67,7 @@ const EventPage = () => {
         "23b08bc0-c50c-4bb1-8606-6a2db940919e",
         [
           {
-            // id: 121240,
-            id: 108337,
+            id: 121240,
           },
         ]
       );
@@ -265,7 +264,7 @@ const EventPage = () => {
               className="inplayer-paywall preview-frame"
             ></div> */}
 
-            <div id="inplayer-108337" className="inplayer-paywall"></div>
+            <div id="inplayer-121240" className="inplayer-paywall"></div>
 
             <div>
               <ExpandButton onClick={toggle}>
