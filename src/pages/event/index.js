@@ -139,7 +139,7 @@ const EventPage = () => {
           of 10 and move the decimal one to the right. It’s not rocket surgery.
         </SecondaryText>
         <SeeMoreButton href="/event/#giveaway">
-          Tap your email below to be entered.
+          Sign up below to judge and potentially win a 3-board quiver{" "}
         </SeeMoreButton>
       </>
     );
@@ -258,11 +258,6 @@ const EventPage = () => {
         <BodyContainer>
           <Main>
             <EventDetails>{renderCTA()}</EventDetails>
-
-            {/* <div
-              id="inplayer-121240"
-              className="inplayer-paywall preview-frame"
-            ></div> */}
 
             <div id="inplayer-121240" className="inplayer-paywall"></div>
 
