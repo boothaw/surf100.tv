@@ -127,6 +127,7 @@ const SplashPage = () => {
           <Countdown date={"09/17/2020 6:00 PM PST"} renderer={renderer} />
         </Banner>
       </NavSection>
+
       <HeaderImg src={imgheader}></HeaderImg>
 
       <ContentContainer>
@@ -355,7 +356,7 @@ const SplashPage = () => {
         </FaqContainer>
       </FaqSection>
       <KoloheBanner>
-        <a href="/trestles">Surf 100 - Trestles</a>
+        <a href="/trestles">Buy: Surf 100 - Trestles</a>
       </KoloheBanner>
       <Footer>
         <a href="/">

@@ -67,7 +67,8 @@ const EventPage = () => {
         "23b08bc0-c50c-4bb1-8606-6a2db940919e",
         [
           {
-            id: 121240,
+            // id: 121240,
+            id: 108337,
           },
         ]
       );
@@ -99,7 +100,7 @@ const EventPage = () => {
   const renderCTA = () => {
     return (
       <>
-        <Title>SURF100:</Title>
+        <Title>SURF 100:</Title>
         <SubTitle>
           An audience judged 100-minute wave riding demonstration.
         </SubTitle>
@@ -260,11 +261,11 @@ const EventPage = () => {
             <EventDetails>{renderCTA()}</EventDetails>
 
             {/* <div
-              id="inplayer-108337"
+              id="inplayer-121240"
               className="inplayer-paywall preview-frame"
             ></div> */}
 
-            <div id="inplayer-121240" className="inplayer-paywall"></div>
+            <div id="inplayer-108337" className="inplayer-paywall"></div>
 
             <div>
               <ExpandButton onClick={toggle}>
@@ -577,7 +578,7 @@ const EventPage = () => {
       </PageContainer>
       {/* <SorryBanner>Times are tough. If you want to watch and can't swing it, email us with your name, age and a bit about yourself.</SorryBanner> */}
       <KoloheBanner>
-        <a href="/trestles">Surf 100 - Trestles</a>
+        <a href="/trestles">Buy: Surf 100 - Trestles</a>
       </KoloheBanner>
       <Footer>
         <a href="/">
