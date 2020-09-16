@@ -197,12 +197,12 @@ const SplashPage = () => {
 
       <ContentContainer>
         <Description>
-          <h2>What is Surf 100?</h2>
+          <h2>What is Surf100?</h2>
           <ul>
             <p>
-              Surf 100 is a waveriding exposition that takes place over a
-              single, 100-minute period and is judged live, at a later date, by
-              the internet. All of this is done following social distancing
+              Surf100 is a waveriding exposition that takes place over a single,
+              100-minute period and is judged live, at a later date, by the
+              internet. All of this is done following social distancing
               guidelines. In this edition, West Oz mainstays Jack Robinson, Jay
               Davies, Jacob Willcox, and Kael Walsh will paddle out for a
               100-minute waveriding demonstration at North Point.
@@ -356,7 +356,7 @@ const SplashPage = () => {
         </FaqContainer>
       </FaqSection>
       <KoloheBanner>
-        <a href="/trestles">Buy: Surf 100 - Trestles</a>
+        <a href="/trestles">Buy: Surf100 - Trestles</a>
       </KoloheBanner>
       <Footer>
         <a href="/">

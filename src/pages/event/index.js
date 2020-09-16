@@ -99,7 +99,7 @@ const EventPage = () => {
   const renderCTA = () => {
     return (
       <>
-        <Title>SURF 100:</Title>
+        <Title>SURF100:</Title>
         <SubTitle>
           An audience judged 100-minute wave riding demonstration.
         </SubTitle>
@@ -198,7 +198,7 @@ const EventPage = () => {
           onClick={() => setActiveTab("Concept")}
           active={activeTab === "Concept"}
         >
-          What is SURF 100?
+          What is SURF100?
         </MenuItem>
 
         <MenuItem
@@ -279,12 +279,12 @@ const EventPage = () => {
             </MobileView>
             <MainSection>
               <SectionBlock id="concept">
-                <SectionTitle>What is SURF 100?</SectionTitle>
+                <SectionTitle>What is SURF100?</SectionTitle>
                 <SectionCopy>
                   <ul>
                     <p>
-                      Surf 100 is a waveriding exposition that takes place over
-                      a single, 100-minute period and is judged live, at a later
+                      Surf100 is a waveriding exposition that takes place over a
+                      single, 100-minute period and is judged live, at a later
                       date, by the internet. All of this is done following
                       social distancing guidelines. In this edition, West Oz
                       mainstays Jack Robinson, Jay Davies, Jacob Willcox, and
@@ -328,7 +328,13 @@ const EventPage = () => {
                   </ul>
                   <ul>
                     <li>
-                      Step 1: Score every wave as you see fit (Note: you NO
+                      Step 1: Enter your email below (this is how we’ll contact
+                      the winner, so don’t send us to a black hole).
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      Step 2: Score every wave as you see fit (Note: you NO
                       LONGER have to score throwaway waves.)
                     </li>
                   </ul>
@@ -337,9 +343,8 @@ const EventPage = () => {
                   </ul>
                   <ul>
                     <li>
-                      The person whose scores are closest to the group average
-                      on the winning surfer’s top two waves will win the three
-                      boards.
+                      The person whose scores are closest to our head critic’s
+                      throughout the event will win the three boards.
                     </li>
                   </ul>
                   {isRegistered ? (
@@ -576,7 +581,7 @@ const EventPage = () => {
       </PageContainer>
       {/* <SorryBanner>Times are tough. If you want to watch and can't swing it, email us with your name, age and a bit about yourself.</SorryBanner> */}
       <KoloheBanner>
-        <a href="/trestles">Buy: Surf 100 - Trestles</a>
+        <a href="/trestles">Buy: Surf100 - Trestles</a>
       </KoloheBanner>
       <Footer>
         <a href="/">
