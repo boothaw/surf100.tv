@@ -145,7 +145,11 @@ const EventPage = () => {
     );
   };
 
-  const renderScoring = (email) => {
+  const renderScoring = () => {
+    {
+      console.log("stact_url_email", email);
+    }
+
     if (isShowing) {
       return (
         <IframeContainerBig
@@ -340,7 +344,7 @@ const EventPage = () => {
                   </ul>
                   {isRegistered ? (
                     <div>
-                      {console.log(email)}
+                      {/* {console.log(email)} */}
                       <h3>Registration Complete!</h3>
                     </div>
                   ) : (
