@@ -101,7 +101,7 @@ const Footer = styled.div`
   a {
     margin-top: auto;
     margin-bottom: auto;
-    color: red;
+    color: #871612;
   }
 
   @media (max-width: 900px) {

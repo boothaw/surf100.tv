@@ -162,7 +162,6 @@ const EventDetails = styled.div`
       margin-top: 6px;
       align-self: start;
     }
-
   }
   .host-banner {
     display: flex;
@@ -193,32 +192,18 @@ const EventDetails = styled.div`
       height: 60px;
     }
   }
-
-  // .hosts100 {
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   height: 76px;
-  //   width: 76px;
-  //   border: 1px solid #f1f2f5;
-  //   box-sizing: border-box;
-  //   box-shadow: 0px 1px 2px rgba(44, 50, 66, 0.08);
-  //   border-radius: 8px;
-  //   margin-right: 12px;
-  //   img {
-  //     height: 30px;
-  //   }
-  }
 `;
 
 const EventBanner = styled.div`
-  height: 320px;
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  @media (max-width: 900px) {
-    height: 280px;
+  width: 100%;
+  background: #871612;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+
+  a {
+    color: white;
   }
 `;
 
@@ -768,19 +753,6 @@ const SeeMoreButton = styled.a`
   }
 `;
 
-const KoloheBanner = styled.div`
-  width: 100%;
-  background: #871612;
-  text-align: center;
-  padding: 8px;
-  font-size: 16px;
-  font-weight: bold;
-
-  a {
-    color: white;
-  }
-`;
-
 export {
   Nav,
   PageContainer,
@@ -820,6 +792,5 @@ export {
   MobileNavBar,
   FAQCard,
   Footer,
-  KoloheBanner,
   Banner,
 };

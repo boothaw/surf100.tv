@@ -42,9 +42,7 @@ import {
   FAQCard,
   Footer,
   SeeMoreButton,
-  SorryBanner,
-  KoloheBanner,
-  Banner,
+  EventBanner,
 } from "./styles";
 
 const EventPage = () => {
@@ -260,6 +258,13 @@ const EventPage = () => {
           </a>
         </SocialContainer>
       </Nav>
+
+      {/* <EventBanner>
+        <a href="/">
+          Yes! XXXXXXXX wins Surf100, North Point Western Australia!{" "}
+        </a>
+      </EventBanner> */}
+
       <PageContainer>
         <BodyContainer>
           <Main>
@@ -581,10 +586,9 @@ const EventPage = () => {
           </Panel>
         </BodyContainer>
       </PageContainer>
-      {/* <SorryBanner>Times are tough. If you want to watch and can't swing it, email us with your name, age and a bit about yourself.</SorryBanner> */}
-      <KoloheBanner>
+      <EventBanner>
         <a href="/trestles">Buy: Surf100 - Trestles</a>
-      </KoloheBanner>
+      </EventBanner>
       <Footer>
         <a href="/">
           <img src={s100white} />

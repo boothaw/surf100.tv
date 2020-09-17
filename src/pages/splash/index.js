@@ -28,16 +28,12 @@ import {
   PageContainer,
   VidSection,
   NavSection,
-  SorryBanner,
-  KoloheBanner,
   HeaderImg,
   TimeWOz,
   HostShot,
   CountCountainer,
+  EventBanner,
 } from "./styles";
-
-// import Modal from "../../components/modal/Modal";
-// import useModal from "../../components/modal/useModal";
 
 import kael from "../../lib/assets/kael.jpg";
 import jack from "../../lib/assets/jack.jpg";
@@ -54,40 +50,9 @@ import insta from "../../lib/assets/insta.png";
 import imgheader from "../../lib/assets/site_header.jpg";
 
 const SplashPage = () => {
-  // const { isShowing, toggle } = useModal();
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(true);
   const [isRegistered, setIsRegistered] = useState(false);
-
-  // return (
-  //   <div>
-  //     <button className="button-default" onClick={toggle}>Show Modal</button>
-  //   </div>
-
-  useEffect(() => {
-    const emailRegistered = localStorage.getItem("SURF100.email");
-
-    console.log("run run", emailRegistered);
-    if (emailRegistered) {
-      setEmail(emailRegistered);
-      setIsRegistered(true);
-    }
-
-    if (window.InplayerPaywall) {
-      var paywall = new window.InplayerPaywall(
-        "23b08bc0-c50c-4bb1-8606-6a2db940919e",
-        [
-          {
-            id: 109708,
-          },
-        ]
-      );
-
-      setTimeout(() => {
-        setLoading(false);
-      }, 1000);
-    }
-  }, []);
 
   const Completionist = () => <span>SHOW IS STARTING</span>;
 
@@ -127,6 +92,12 @@ const SplashPage = () => {
           <Countdown date={"09/17/2020 6:00 PM PST"} renderer={renderer} />
         </Banner>
       </NavSection>
+
+      {/* <EventBanner>
+        <a href="/">
+          Yes! XXXXXXXX wins Surf100, North Point Western Australia!{" "}
+        </a>
+      </EventBanner> */}
 
       <HeaderImg src={imgheader}></HeaderImg>
 
@@ -355,9 +326,9 @@ const SplashPage = () => {
           </ColumnTwo>
         </FaqContainer>
       </FaqSection>
-      <KoloheBanner>
+      <EventBanner>
         <a href="/trestles">Buy: Surf100 - Trestles</a>
-      </KoloheBanner>
+      </EventBanner>
       <Footer>
         <a href="/">
           <img src={s100white} />

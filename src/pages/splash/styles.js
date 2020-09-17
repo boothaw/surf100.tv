@@ -446,6 +446,19 @@ const HeaderImg = styled.img`
   width: 100%;
 `;
 
+const EventBanner = styled.div`
+  width: 100%;
+  background: #871612;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+
+  a {
+    color: white;
+  }
+`;
+
 export {
   Banner,
   ContentContainer,
@@ -477,4 +490,5 @@ export {
   TimeWOz,
   HostShot,
   CountCountainer,
+  EventBanner,
 };
