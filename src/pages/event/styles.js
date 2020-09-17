@@ -554,7 +554,7 @@ const DesktopView = styled.div`
 
 const StickyScroll = styled.div`
   position: sticky;
-  top: 104px;
+  top: 32px;
 `;
 
 const SorryBanner = styled.div`
