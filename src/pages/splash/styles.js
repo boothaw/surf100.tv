@@ -21,6 +21,8 @@ const Banner = styled.div`
   text-transform: uppercase;
   font-size: 12px;
   padding: 4px;
+  display: flex;
+  justify-content: center;
 
   span {
     color: #871612;

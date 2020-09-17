@@ -55,7 +55,11 @@ const SplashPage = () => {
   const [loading, setLoading] = useState(true);
   const [isRegistered, setIsRegistered] = useState(false);
 
-  const Completionist = () => <span>SHOW IS STARTING</span>;
+  const Completionist = () => (
+    <div class="countdown">
+      <span>Show time</span> : <span>now</span>
+    </div>
+  );
 
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
@@ -96,7 +100,7 @@ const SplashPage = () => {
           </BuyContainer> */}
         </NavBar>
         <Banner>
-          <Countdown date={"09/17/2020 6:00 PM PST"} renderer={renderer} />
+          <Countdown date={"09/17/2020 5:00 PM PST"} renderer={renderer} />
         </Banner>
       </NavSection>
 

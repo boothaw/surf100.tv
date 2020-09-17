@@ -15,15 +15,18 @@ const Nav = styled.div`
 
   img {
     height: 42px;
+
+    @media (max-width: 900px) {
+      height: 32px;
+    }
   }
+
   a {
     color: #000;
   }
 
-  @media (min-width: 900px) {
-    position: sticky;
-    top: 0px;
-    z-index: 3;
+  @media (max-width: 900px) {
+    padding: 8px 16px;
   }
 `;
 
