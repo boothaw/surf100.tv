@@ -29,6 +29,7 @@ import {
   NavSection,
   SorryBanner,
   KoloheBanner,
+  BuyContainer,
 } from "./styles";
 
 import Modal from "../../components/modal/Modal";
@@ -87,6 +88,11 @@ const SplashPage = () => {
           <div>
             <Button href="/event">Current Scoring Page</Button>
           </div>
+          {/* <BuyContainer>
+            <p>Buy Now:</p>
+            <Button href="/event">WA</Button>
+            <Button href="/trestles">Trestles</Button>
+          </BuyContainer> */}
         </NavBar>
       </NavSection>
       <KoloheBanner>

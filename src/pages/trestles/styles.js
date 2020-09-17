@@ -28,11 +28,18 @@ const NavBar = styled.div`
   a img {
     height: 42px;
   }
+  a {
+    height: 42px;
+  }
 
   @media (max-width: 900px) {
     padding: 8px 16px;
 
-    div img {
+    a {
+      height: 32px;
+    }
+
+    a img {
       height: 32px;
     }
   }
@@ -48,12 +55,14 @@ const ContentContainer = styled.div`
 
 const Button = styled.a`
   :hover {
-    color: #598cc0;
+    color: #000;
   }
   background: white;
-  color: black;
+  color: #871612;
+  font-weight: bold;
+  font-size: 18px;
   border: 2px solid black;
-  padding: 8px 16px;
+  padding: 4px 8px;
   cursor: pointer;
   transition: 0.2s ease;
   ${(props) => props.mb && `margin-bottom: ${props.mb};`}
@@ -62,8 +71,7 @@ const Button = styled.a`
   }
 
   @media (max-width: 900px) {
-    font-size: 16px;
-    padding: 4px;
+    font-size: 14px;
   }
 `;
 
@@ -353,6 +361,27 @@ const KoloheBanner = styled.div`
   }
 `;
 
+const BuyContainer = styled.div`
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr;
+  column-gap: 12px;
+  align-items: center;
+
+  p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  @media (max-width: 900px) {
+    p {
+      font-size: 16px;
+    }
+  }
+`;
+
 export {
   Banner,
   ContentContainer,
@@ -380,4 +409,5 @@ export {
   NavSection,
   SorryBanner,
   KoloheBanner,
+  BuyContainer,
 };

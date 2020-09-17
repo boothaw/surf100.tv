@@ -33,6 +33,7 @@ import {
   HostShot,
   CountCountainer,
   EventBanner,
+  BuyContainer,
 } from "./styles";
 
 import kael from "../../lib/assets/kael.jpg";
@@ -87,6 +88,12 @@ const SplashPage = () => {
           <div>
             <Button href="/event">Buy Now</Button>
           </div>
+          {/* below is post event - above is pre/during event */}
+          {/* <BuyContainer>
+            <p>Buy Now:</p>
+            <Button href="/event">WA</Button>
+            <Button href="/trestles">Trestles</Button>
+          </BuyContainer> */}
         </NavBar>
         <Banner>
           <Countdown date={"09/17/2020 6:00 PM PST"} renderer={renderer} />

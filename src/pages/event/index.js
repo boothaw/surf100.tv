@@ -272,12 +272,12 @@ const EventPage = () => {
 
             <div id="inplayer-121240" className="inplayer-paywall"></div>
 
-            {/* <div>
+            <div>
               <ExpandButton onClick={toggle}>
                 {isShowing ? "Collapse Scoring" : "Expand Scoring"}
               </ExpandButton>
               {renderScoring()}
-            </div> */}
+            </div>
 
             <MobileNavBar>{renderNavMenu()}</MobileNavBar>
             <MobileView>
