@@ -88,6 +88,8 @@ const EventPage = () => {
     if (email.trim().length) {
       // STORE TO LOCAL STORAGE
       localStorage.setItem("SURF100.email", email);
+      console.log("handle save email", email);
+
       setIsRegistered(true);
 
       // PASS TO PARAMETER TO IFRAME... by using the email value in state.
