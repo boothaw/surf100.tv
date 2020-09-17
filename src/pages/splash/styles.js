@@ -464,8 +464,17 @@ const EventBanner = styled.div`
   font-size: 16px;
   font-weight: bold;
 
+  // a:first-child {
+  //   margin-right: 12px;
+  // }
+
   a {
     color: white;
+  }
+
+  img {
+    height: 32px;
+    border-radius: 50%;
   }
 `;
 

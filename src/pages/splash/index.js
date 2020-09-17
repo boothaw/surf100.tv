@@ -106,6 +106,9 @@ const SplashPage = () => {
 
       {/* <EventBanner>
         <a href="/">
+          <img src={jay}></img>
+        </a>
+        <a href="/">
           Yes! XXXXXXXX wins Surf100, North Point Western Australia!{" "}
         </a>
       </EventBanner> */}
