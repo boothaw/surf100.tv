@@ -57,7 +57,7 @@ const SplashPage = () => {
 
   const Completionist = () => (
     <div class="countdown">
-      <span>Show time</span> : <span>now</span>
+      {/* <span>Show time</span> : <span>now</span> */}
     </div>
   );
 
