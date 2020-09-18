@@ -259,11 +259,11 @@ const EventPage = () => {
         </SocialContainer>
       </Nav>
 
-      {/* <EventBanner>
+      <EventBanner>
         <a href="/">
-          Yes! XXXXXXXX wins Surf100, North Point Western Australia!{" "}
+          Yes! Jack Robinson wins Surf100, North Point Western Australia!{" "}
         </a>
-      </EventBanner> */}
+      </EventBanner>
 
       <PageContainer>
         <BodyContainer>

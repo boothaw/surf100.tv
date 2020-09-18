@@ -85,14 +85,14 @@ const SplashPage = () => {
           <a href="/">
             <img src={s100dark} />
           </a>
-          <div>
+          {/* <div>
             <Button href="/event">WA</Button>
-          </div>
-          {/* <BuyContainer>
+          </div> */}
+          <BuyContainer>
             <p>BUY VOD NOW:</p>
             <Button href="/event">WA</Button>
             <Button href="/trestles">TRESTLES</Button>
-          </BuyContainer> */}
+          </BuyContainer>
         </NavBar>
       </NavSection>
       <KoloheBanner>

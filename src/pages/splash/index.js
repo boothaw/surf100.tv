@@ -89,29 +89,23 @@ const SplashPage = () => {
           <CountCountainer>
             <Countdown date={"09/17/2020 5:00 PM PST"} renderer={renderer} />
           </CountCountainer>{" "}
-          <div>
-            <Button href="/event">Buy Now</Button>
-          </div>
-          {/* below is post event - above is pre/during event */}
-          {/* <BuyContainer>
+          <BuyContainer>
             <p>BUY VOD NOW:</p>
             <Button href="/event">WA</Button>
             <Button href="/trestles">TRESTLES</Button>
-          </BuyContainer> */}
+          </BuyContainer>
         </NavBar>
         <Banner>
           <Countdown date={"09/17/2020 5:00 PM PST"} renderer={renderer} />
         </Banner>
       </NavSection>
 
-      {/* <EventBanner>
+      <EventBanner>
+        <a href="/">{/* <img src={jay}></img> */}</a>
         <a href="/">
-          <img src={jay}></img>
+          Yes! Jack Robinson wins Surf100, North Point Western Australia!{" "}
         </a>
-        <a href="/">
-          Yes! XXXXXXXX wins Surf100, North Point Western Australia!{" "}
-        </a>
-      </EventBanner> */}
+      </EventBanner>
 
       <HeaderImg src={imgheader}></HeaderImg>
 
