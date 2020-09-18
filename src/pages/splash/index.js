@@ -334,9 +334,7 @@ const SplashPage = () => {
           </ColumnTwo>
         </FaqContainer>
       </FaqSection>
-      <EventBanner>
-        <a href="/trestles">Buy: Surf100 - Trestles</a>
-      </EventBanner>
+
       <Footer>
         <a href="/">
           <img src={s100white} />
