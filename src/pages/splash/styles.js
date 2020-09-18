@@ -113,7 +113,7 @@ const Button = styled.a`
   }
 
   @media (max-width: 900px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 `;
 
@@ -494,7 +494,7 @@ const BuyContainer = styled.div`
 
   @media (max-width: 900px) {
     p {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 `;

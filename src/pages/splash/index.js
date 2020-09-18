@@ -94,9 +94,9 @@ const SplashPage = () => {
           </div>
           {/* below is post event - above is pre/during event */}
           {/* <BuyContainer>
-            <p>Buy Now:</p>
+            <p>BUY VOD NOW:</p>
             <Button href="/event">WA</Button>
-            <Button href="/trestles">Trestles</Button>
+            <Button href="/trestles">TRESTLES</Button>
           </BuyContainer> */}
         </NavBar>
         <Banner>
