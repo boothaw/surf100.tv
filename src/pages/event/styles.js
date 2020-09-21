@@ -140,7 +140,9 @@ const Main = styled.div`
   }
 `;
 
-const Panel = styled.div``;
+const Panel = styled.div`
+  height: 100%;
+`;
 
 const EventDetails = styled.div`
   padding: 24px;
@@ -553,6 +555,7 @@ const DesktopView = styled.div`
 `;
 
 const StickyScroll = styled.div`
+  position: -webkit-sticky;
   position: sticky;
   top: 32px;
 `;
