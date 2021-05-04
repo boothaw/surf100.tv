@@ -347,7 +347,7 @@ const SplashPage = () => {
 
             <h4>What if my computer cuts out?</h4>
             <p>
-              That’s a long piece of string, sugar. That one is on you. The
+              That’s a long piece of string. That one is on you. The
               broadcast will keep on running.
             </p>
           </ColumnTwo>
