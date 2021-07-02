@@ -1,12 +1,7 @@
 import styled from "styled-components";
-import mexipoint from "../../lib/assets/mexipoint.jpg";
 
 const PageContainer = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  min-width: 375px;
 `;
 
 const NavSection = styled.div`
@@ -92,28 +87,12 @@ const CountCountainer = styled.div`
   }
 `;
 
-const PageLink = styled.div`
-  max-width: 700px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-
-  a {
-    color: white;
-    // text-transform: uppercase;
-    font-weight: bold;
-    font-size: 18px;
-    border-bottom: 2px solid black;
-    // padding: 4px 8px;
-    padding-bottom: 4px;
-  }
-`;
-
 const ContentContainer = styled.div`
-  width: 100%;
-  padding: 24px;
-  max-width: 700px;
-  margin: auto;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+  position: relative;
 `;
 
 const Button = styled.a`
@@ -159,39 +138,28 @@ const TitleSection = styled.div`
   }
 `;
 
-const BannerImg = styled.img`
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-`;
-
 const VidContainer = styled.div`
-
-iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+  bottom: -24px;
+  width: 640px;
 
-position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
+  @media (max-width: 900px) {
+    position: absolute;
+    bottom: -24px;
+    width: 90%;
+  }
 `;
 
 const VidSection = styled.div`
-  // position: relative;
-  // display: flex;
-  // justify-content: center;
+  height: 340px;
+  position: relative;
+  display: flex;
+  justify-content: center;
   margin: 0;
-  padding: 24px 0;
 
-  // @media (max-width: 900px) {
-  //   max-height: 320px;
-  // }
+  @media (max-width: 900px) {
+    height: 320px;
+  }
 `;
 
 const Featuring = styled.div`
@@ -484,13 +452,7 @@ const KoloheBanner = styled.div`
   }
 `;
 
-const BackgroundImg = styled.div`
-  background-image: url(${mexipoint});
-  display: flex;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+const HeaderImg = styled.img`
   width: 100%;
 `;
 
@@ -501,6 +463,10 @@ const EventBanner = styled.div`
   padding: 8px;
   font-size: 16px;
   font-weight: bold;
+
+  // a:first-child {
+  //   margin-right: 12px;
+  // }
 
   a {
     color: white;
@@ -560,12 +526,10 @@ export {
   NavSection,
   SorryBanner,
   KoloheBanner,
-  BackgroundImg,
+  HeaderImg,
   TimeWOz,
   HostShot,
   CountCountainer,
   EventBanner,
   BuyContainer,
-  BannerImg,
-  PageLink,
 };

@@ -13,6 +13,7 @@ import {
   TitleSection,
   ContactInfo,
   ContentWrapper,
+  BuyContainer
 } from "./styles";
 
 import s100dark from "../../lib/assets/s100logodark.png";
@@ -31,9 +32,11 @@ const Contact = () => {
             <a href="/">
               <img src={s100dark} />
             </a>
-            <div>
-              <Button href="/event">Watch the Event</Button>
-            </div>
+            <BuyContainer>
+              <Button href="/wa">WA</Button>
+              <Button href="/trestles">TRESTLES</Button>
+              <Button href="/event">Event</Button>
+            </BuyContainer>
           </NavBar>
         </NavSection>
 

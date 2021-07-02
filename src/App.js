@@ -7,6 +7,7 @@ import EventPage from "./pages/event/index";
 import SplashPage from "./pages/splash/index";
 import Contact from "./pages/contact/index";
 import Trestles from "./pages/trestles/index";
+import Wa from "./pages/wa/index";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </Route>
       <Route exact path="/trestles">
         <Trestles />
+      </Route>
+      <Route exact path="/wa">
+        <Wa />
       </Route>
     </Router>
   );
