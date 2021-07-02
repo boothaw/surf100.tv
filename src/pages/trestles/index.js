@@ -66,7 +66,7 @@ const SplashPage = () => {
           <BuyContainer>
             <Button href="/wa">WA</Button>
             <Button href="/trestles">TRESTLES</Button>
-            <Button href="/event">Event</Button>
+            <Button href="/event">EVENT</Button>
           </BuyContainer>
         </NavBar>
       </NavSection>
