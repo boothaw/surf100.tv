@@ -57,24 +57,25 @@ const KoloheBanner = styled.div`
 `;
 
 const Button = styled.a`
-  :hover {
-    color: #598cc0;
-  }
-  background: white;
-  color: black;
-  border: 2px solid black;
-  padding: 8px 16px;
-  cursor: pointer;
-  transition: 0.2s ease;
-  ${(props) => props.mb && `margin-bottom: ${props.mb};`}
-  & {
-    transform: scale(1.02);
-  }
+:hover {
+  color: #000;
+}
+background: white;
+color: #871612;
+font-weight: bold;
+font-size: 18px;
+border: 2px solid black;
+padding: 4px 8px;
+cursor: pointer;
+transition: 0.2s ease;
+${(props) => props.mb && `margin-bottom: ${props.mb};`}
+& {
+  transform: scale(1.02);
+}
 
-  @media (max-width: 900px) {
-    font-size: 16px;
-    padding: 4px;
-  }
+@media (max-width: 900px) {
+  font-size: 12px;
+}
 `;
 
 const Footer = styled.div`
@@ -181,6 +182,27 @@ const ContactInfo = styled.div`
   }
 `;
 
+const BuyContainer = styled.div`
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr;
+  column-gap: 12px;
+  align-items: center;
+
+  p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  @media (max-width: 900px) {
+    p {
+      font-size: 14px;
+    }
+  }
+`;
+
 export {
   PageContainer,
   NavSection,
@@ -193,4 +215,5 @@ export {
   TitleSection,
   ContactInfo,
   ContentWrapper,
+  BuyContainer
 };
