@@ -67,7 +67,8 @@ const SplashPage = () => {
               </VidContainer>
             </VidSection>
            <PageLink>
-             <a href="https://stabmag.com/news/coming-soon-surf100-with-dane-reynolds-mikey-february-and-mason-ho/">Learn More</a>
+             <a href="https://stabmag.com/surf100/">Learn More</a>
+             <a href="https://stabmag.com/surf100/">9/2/21 6 pm PST</a>
              <a href="/wa">Previous Events</a>
            </PageLink>
         </ContentContainer>
