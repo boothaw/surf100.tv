@@ -100,12 +100,15 @@ const PageLink = styled.div`
 
   a {
     color: white;
-    // text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
     border-bottom: 2px solid black;
-    // padding: 4px 8px;
     padding-bottom: 4px;
+
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
   }
 `;
 
